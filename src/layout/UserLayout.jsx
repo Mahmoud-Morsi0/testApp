@@ -1,14 +1,14 @@
-import { Nav } from '../components/Nav'
 import { Outlet } from 'react-router-dom'
 import { FooterComponent } from '../components/Footer'
+import Nav from '../components/Nav'
 
 function UserLayout() {
     return (
         <div>
-            <Nav />
+            < Nav />
             <Outlet />
             <FooterComponent />
-        </div>
+        </div >
     )
 }
 
