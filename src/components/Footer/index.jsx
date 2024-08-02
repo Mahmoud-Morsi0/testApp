@@ -4,7 +4,7 @@ import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-
 export function FooterComponent() {
     return (
 
-        <div className="w-full fixed bottom-0 p-16 bg-gray-200">
+        <div className="w-full fixed bottom-0 p-16 bg-gray-200 h-[200px]">
             <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
                 <div>
                     <Footer.Brand
