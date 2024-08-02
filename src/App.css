@@ -1,0 +1,7 @@
+.btn{
+  @apply bg-black text-white rounded-lg hover:bg-[#363636] text-lg px-4 py-1 focus:bg-green-500 focus:text-black shadow-sm shadow-black
+}
+
+.custom-height {
+  height: calc(100vh - (48px + 201px));
+}
